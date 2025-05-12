@@ -116,7 +116,7 @@
       color: #bbb;
     }
   /* Resume */
-    #resume {
+    /* #resume {
       text-align: center;
     }
     #resume a {
@@ -137,7 +137,7 @@
       background-color: #0288d1;
       box-shadow: 0 6px 15px #0288d1cc;
       outline: none;
-    }
+    } */
   /* Contact */
     .contact-info {
       display: flex;
