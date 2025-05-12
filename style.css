@@ -1,0 +1,184 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+    /* Reset and base */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #121212;
+      color: #eee;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+ a {
+      color: #4fc3f7;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #81d4fa;
+    }
+
+    /* Container */
+    .container {
+      max-width: 350px;
+      width: 100%;
+      background-color: #1e1e1e;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #0b84ff88;
+      padding: 20px 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    header {
+      text-align: center;
+    }
+  header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #4fc3f7;
+      margin-bottom: 5px;
+    }
+    header p {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #99ccff;
+      font-style: italic;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #4fc3f7;
+      padding-bottom: 6px;
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #4fc3f7;
+    }
+
+    /* About */
+    #about p {
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+  /* Skills */
+    .skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .skills-list li {
+      background: #0b79d0;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      color: #e0f7fa;
+      font-weight: 600;
+      box-shadow: 0 2px 5px #0288d1cc;
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+    .skills-list li:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px #0288d1ee;
+    }
+  /* Projects */
+    .project {
+      background-color: #282828;
+      padding: 12px 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px #0b84ff55;
+      margin-bottom: 12px;
+      transition: box-shadow 0.3s ease;
+    }
+    .project:hover {
+      box-shadow: 0 5px 15px #0b84ffcc;
+    }
+    .project-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #81d4fa;
+      margin-bottom: 6px;
+    }
+    .project-desc {
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+  /* Resume */
+    #resume {
+      text-align: center;
+    }
+    #resume a {
+      display: inline-block;
+      background: #0b79d0;
+      color: #e0f7fa;
+      padding: 12px 22px;
+      border-radius: 25px;
+      font-weight: 700;
+      font-size: 1rem;
+      box-shadow: 0 3px 8px #0288d1aa;
+      text-decoration: none;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      user-select: none;
+    }
+    #resume a:hover,
+    #resume a:focus {
+      background-color: #0288d1;
+      box-shadow: 0 6px 15px #0288d1cc;
+      outline: none;
+    }
+  /* Contact */
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+    .contact-info a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      background: #0b79d0;
+      border-radius: 8px;
+      font-weight: 600;
+      box-shadow: 0 2px 6px #0288d1aa;
+      justify-content: center;
+      user-select: text;
+    }
+    .contact-info a:hover {
+      background: #0288d1;
+      box-shadow: 0 4px 12px #0288d1cc;
+    }
+/* Responsive adjustments */
+    @media (max-width: 400px) {
+      .container {
+        max-width: 100vw;
+        border-radius: 0;
+        padding: 15px 15px;
+      }
+      header h1 {
+        font-size: 1.8rem;
+      }
+      section h2 {
+        font-size: 1.2rem;
+      }
+      #resume a {
+        padding: 10px 18px;
+        font-size: 0.95rem;
+      }
+    }
+
+
