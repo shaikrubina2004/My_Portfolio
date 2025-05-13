@@ -115,29 +115,7 @@
       font-size: 0.9rem;
       color: #bbb;
     }
-  /* Resume */
-    /* #resume {
-      text-align: center;
-    }
-    #resume a {
-      display: inline-block;
-      background: #0b79d0;
-      color: #e0f7fa;
-      padding: 12px 22px;
-      border-radius: 25px;
-      font-weight: 700;
-      font-size: 1rem;
-      box-shadow: 0 3px 8px #0288d1aa;
-      text-decoration: none;
-      transition: background-color 0.3s ease, box-shadow 0.3s ease;
-      user-select: none;
-    }
-    #resume a:hover,
-    #resume a:focus {
-      background-color: #0288d1;
-      box-shadow: 0 6px 15px #0288d1cc;
-      outline: none;
-    } */
+  
   /* Contact */
     .contact-info {
       display: flex;
